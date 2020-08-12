@@ -54,6 +54,25 @@ strong.vermelho {
  }
  
 
+/*p descendente de container*/
+.container p {
+    color:lightslategrey;
+    font-size:small;
+    font-style: italic;
+    text-shadow: none;
+}
+.container{
+    background-color: lightcyan;           
+    width: 640px;
+    /*Centralizando o container*/
+    display: block;
+    margin: 0 auto;
+    border:5px solid black;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 0 20px chartreuse;
+    line-height: 20px;
+}
 
 
 
