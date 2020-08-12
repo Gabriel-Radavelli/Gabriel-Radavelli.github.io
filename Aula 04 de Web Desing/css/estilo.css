@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+/**********************************
+Seletores de elementos, exemplos:
+ - body;
+ - h1;
+ - h2;
+ - img;
+***********************************/
+
+body { /* Corpo da página */
+    background-color: aqua; /* Cor do texto*/
+    color: orange;
+    text-shadow: 2px 2px 5px maroon;
+}
+
+h1 {
+    color: orange;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 400%;
+    text-align: center;
+}
+ 
+/*Seletor h2*/
+h2 { /*Propriedades do h2*/
+    color: yellow;
+    font-family: 'Lobster', cursive;
+    font-size: 150%;
+    text-align: center;
+ }
+
+ img.logo {
+    height: 200px;
+    width: 200px;   
+    margin-left: 100px;
+    border-radius: 20px;
+ }
+ 
+img.logo:hover {
+    box-shadow: 5px 5px 10px black;
+}
+
+/*Seletor de Identificador*/
+img#imgprincipal {
+    display: block;
+    margin:0 auto;
+}
+
+ 
+strong.vermelho {
+    color: red;
+ }
+ 
+
+
+
+
+
+
+
+
+
+
