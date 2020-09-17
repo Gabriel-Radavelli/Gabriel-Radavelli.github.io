@@ -4,4 +4,37 @@ body{
     text-align: center;
  }
  
+ body{
+    background-color:PapayaWhip;
+    color:red;
+ }
+
+ table {
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    border: 1px solid black;
+  }
+  table {
+    width: 50%;
+    border: 3px solid Goldenrod;
+
+  }
+  
+  th, td {
+    padding: 5px;
+    text-align: center;
+  }
+
  
+  
+ tr:nth-child(even) {
+    background-color:Cornsilk;
+ }
+  
+
+ tr:hover {
+     background-color: rgb(212, 194, 149);
+     color:red;
+ }
