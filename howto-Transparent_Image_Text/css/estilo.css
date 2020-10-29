@@ -1,0 +1,68 @@
+/*Cor do Fundo e Cor do texto*/
+body{
+    background-color: blueviolet;
+    color: orange;
+    transition: all 300ms;
+}
+
+/*Cor do texto "h1"*/
+h1 {
+    text-align: center;
+    margin-top: 3%;
+    font-size: 403%;
+    color: gold;
+}
+
+/*Layout do Parágrafo*/
+p {
+    text-align: center;
+    margin-top: 2%;
+    margin-right: 4%;
+    margin-left: 4%;
+    font-size: 200%;
+}
+
+/*Layout Responsivo*/
+@media screen and (max-width: 645px) {
+    div.card-body {
+      font-size: 90%;
+      margin-top: 3%;
+      margin-right: 4.5%;
+      margin-left: 4.5%;
+      color: aquamarine;
+    }
+  }
+
+/*Estilo do "Transparent Image Text"*/
+.container {
+    position: relative;
+    max-width: 1255px; /* Maximum width */
+    margin: 4% auto; /* Center it */
+}
+
+.container .content {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 90.5%; /* Full width */
+    padding: 60px; /* Some padding */
+    transition: all 300ms;
+    border-radius: 2%;
+}
+
+h2 {
+    color: orange;
+    text-align: center;
+    font-size: 300%;
+}
+
+img {
+    border-radius: 1%;
+    transition: all 300ms;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-block-end: 5%;
+}
