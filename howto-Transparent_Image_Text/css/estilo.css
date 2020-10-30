@@ -36,18 +36,18 @@ p {
 /*Estilo do "Transparent Image Text"*/
 .container {
     position: relative;
-    max-width: 1255px; /* Maximum width */
-    margin: 4% auto; /* Center it */
+    max-width: 1255px; /* Largura máxima */
+    margin: 4% auto; /* Centralize */
 }
 
 .container .content {
-    position: absolute; /* Position the background text */
-    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
-    background: rgb(0, 0, 0); /* Fallback color */
-    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
-    color: #f1f1f1; /* Grey text */
-    width: 90.5%; /* Full width */
-    padding: 60px; /* Some padding */
+    position: absolute; /* Posicione o texto de fundo */
+    bottom: 0; /* No fundo. Use top: 0 para anexá-lo ao topo */
+    background: rgb(0, 0, 0); /* Cor reserva */
+    background: rgba(0, 0, 0, 0.5); /* Fundo preto com opacidade de 0,5 */
+    color: #f1f1f1; /* Texto cinza */
+    width: 90.5%; /* Largura completa */
+    padding: 60px; /* Algum enchimento */
     transition: all 300ms;
     border-radius: 2%;
 }
